@@ -1,5 +1,5 @@
 # una-buena
-Una Buena Spanish website using the lm-generator-base submodule
+UBS website using the lm-generator-base submodule
 
 ## How to start the dev server
 
