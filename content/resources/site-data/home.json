@@ -4,7 +4,7 @@
         "footer": true,
         "mainMenu": true
     },
-    "components": [
+    "component": [
         {
             "type": "Hero",
             "config": {
@@ -13,7 +13,7 @@
                 ],
                 "background": {
                     "style": "color",
-                    "value": "#222222"
+                    "value": "#000"
                 }
             },
             "content": {
