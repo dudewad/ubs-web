@@ -1,0 +1,10 @@
+{
+	"globalConfig": "global.json",
+	"routes": {
+		"default": "home.json",
+		"/": "home.json"
+	},
+    "vendor": {
+        "metrics" :{}
+    }
+}

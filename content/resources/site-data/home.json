@@ -1,0 +1,28 @@
+{
+    "config": {
+        "header": true,
+        "footer": true,
+        "mainMenu": true
+    },
+    "components": [
+        {
+            "type": "Hero",
+            "config": {
+                "class": [
+                    "compensate-header"
+                ],
+                "background": {
+                    "style": "color",
+                    "value": "#222222"
+                }
+            },
+            "content": {
+                "title": "Una Buena Spanish",
+                "cta": {
+                    "text": "Learn More",
+                    "href": "/contact"
+                }
+            }
+        }
+    ]
+}
