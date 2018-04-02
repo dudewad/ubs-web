@@ -1,8 +1,8 @@
 {
   "build": {
     "devServer": {
-      "host": "0.0.0.0",
-      "port": 3001
+      "host": "10.0.0.49",
+      "port": 3000
     },
     "outputBase": {
       "prod": "../dist/prod",
@@ -32,9 +32,14 @@
       "style": "normal"
     },
     {
-      "name": "alice",
+      "name": "bree",
       "type": "import",
-      "url": "https://fonts.googleapis.com/css?family=Alice"
+      "url": "https://fonts.googleapis.com/css?family=Bree+Serif"
+    },
+    {
+      "name": "raleway",
+      "type": "import",
+      "url": "https://fonts.googleapis.com/css?family=Raleway"
     }
   ],
   "style": {

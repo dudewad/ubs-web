@@ -1,0 +1,19 @@
+@import '../_variables.scss';
+
+site-footer {
+  footer {
+    margin-top: 0;
+
+    .content,
+    .sub-footer {
+      border-top: none;
+      background: map-get($colors-overrides, footer-bg);
+    }
+
+    ul {
+      li {
+        list-style: none;
+      }
+    }
+  }
+}

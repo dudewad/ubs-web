@@ -1,7 +1,20 @@
-//$body-font-family-override: alice, serif;
-//$titling-font-family-override: bebas, sans-serif;
+$body-font-family-override: Raleway, sans-serif;
+$titling-font-family-override: "Bree Serif", serif;
 
 $base-colors-overrides: (
-	brand-primary: #45ac94,
-	brand-secondary: #9040c3
+    brand-primary: #319fa5,
+    brand-secondary: #ef5051,
+    brand-tertiary: #696969,
+    white: #FFF,
+);
+
+$colors-overrides: (
+    button-bg: map-get($base-colors-overrides, brand-secondary),
+    footer-bg: map-get($base-colors-overrides, brand-tertiary),
+    header-color: #FFF,
+    header-bg: map-get($base-colors-overrides, brand-primary),
+    header-logo-color: #fff,
+    main-menu-page-bg: map-get($base-colors-overrides, white),
+    main-menu-page-header-bg: map-get($base-colors-overrides, brand-primary),
+    main-menu-separator-color: lighten(map-get($base-colors-overrides, brand-primary),50),
 );

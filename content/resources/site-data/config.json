@@ -1,10 +1,14 @@
 {
-	"globalConfig": "global.json",
-	"routes": {
-		"default": "home.json",
-		"/": "home.json"
-	},
+    "globalConfig": "global.json",
+    "routes": {
+        "default": "home.json",
+        "/": "home.json"
+    },
     "vendor": {
-        "metrics" :{}
+        "metrics": {
+            "google": {
+                "trackingId": "UA-77165499-1"
+            }
+        }
     }
 }

@@ -1,0 +1,28 @@
+menu {
+  &.main-menu {
+    .backdrop {
+      background: rgba(0, 0, 0, .5) !important;
+    }
+  }
+}
+
+.main-menu-page {
+  button {
+    background: transparent;
+  }
+
+  .menu-page-header {
+    height: 76px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+body.main-menu-active {
+  .site-content-wrapper {
+    filter: grayscale(50%);
+    transition: filter .5s;
+  }
+}

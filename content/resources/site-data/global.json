@@ -1,279 +1,129 @@
 {
-	"component": {
-		"header": {
-			"content": {
-				"en-us": {
-					"mainMenuToggle": {
-						"label": "Menu"
-					},
-					"logo": {
-						"type": "icon"
-					}
-				},
-				"es-ar": {
-					"mainMenuToggle": {
-						"label": "Menio"
-					},
-					"logo": {
-						"type": "icon"
-					}
-				}
-			}
-		},
-		"footer": {
-			"content": {
-				"en-us": {
-					"copyright": {
-						"copy": "Una Buena Spanish"
-					},
-					"sections": [
-						{
-							"title": "Who We Are",
-							"items": [
-								{
-									"routerLink": "/about",
-									"copy": "About Us"
-								},
-								{
-									"routerLink": "/contact",
-									"copy": "Contact Us"
-								}
-							]
-						},
-						{
-							"title": "Resources",
-							"items": [
-								{
-									"routerLink": "/membership",
-									"copy": "Membership"
-								},
-								{
-									"routerLink": "/rules",
-									"copy": "Rules &amp; Guidelines"
-								},
-								{
-									"routerLink": "/contact",
-									"copy": "Hours &amp; Location"
-								}
-							]
-						},
-						{
-							"title": "Things We Like",
-							"items": [
-								{
-									"href": "http://www.humanesociety.org/",
-									"copy": "Humane Society"
-								},
-								{
-									"href": "http://rylanschoen.com/",
-									"copy": "Rylan Schoen Photography"
-								}
-							]
-						}
-					],
-					"social": {
-						"title": "Support Us",
-						"items": [
-							{
-								"type": "facebook",
-								"href": "https://www.facebook.com/pawsforabeer/"
-							},
-							{
-								"type": "instagram",
-								"href": "https://www.instagram.com/paws_forabeer/"
-							}
-						]
-					}
-				},
-				"es-ar": {
-					"copyright": {
-						"copy": "Paws for a Beer"
-					},
-					"sections": [
-						{
-							"title": "Quienes Somos",
-							"items": [
-								{
-									"routerLink": "/about",
-									"copy": "Sobre"
-								},
-								{
-									"routerLink": "/contact",
-									"copy": "Contáctenos"
-								}
-							]
-						},
-						{
-							"title": "Resources",
-							"items": [
-								{
-									"routerLink": "/membership",
-									"copy": "Hacerse Socio"
-								},
-								{
-									"routerLink": "/rules",
-									"copy": "Reglas"
-								},
-								{
-									"routerLink": "/contact",
-									"copy": "Horas y Ubicación"
-								}
-							]
-						},
-						{
-							"title": "Cosas que nos gustan",
-							"items": [
-								{
-									"href": "http://www.humanesociety.org/",
-									"copy": "Humane Society"
-								},
-								{
-									"href": "http://rylanschoen.com/",
-									"copy": "Rylan Schoen Fotografía"
-								}
-							]
-						}
-					],
-					"social": {
-						"title": "Support Us",
-						"items": [
-							{
-								"type": "facebook",
-								"href": "https://www.facebook.com/pawsforabeer/"
-							},
-							{
-								"type": "instagram",
-								"href": "https://www.instagram.com/paws_forabeer/"
-							}
-						]
-					}
-				}
-			}
-		},
-		"mainMenu": {
-			"config": {
-
-			},
-			"content": {
-				"en-us": {
-					"header": {
-						"defaultBackText": "Close"
-					},
-					"items": [
-						{
-							"style": "link",
-							"text": "Membership",
-							"href": "/membership"
-						},
-						{
-							"style": "link",
-							"text": "Products",
-							"items": [
-								{
-									"style": "link",
-									"text": "Bicycle",
-									"href": "/about?bicycle=true"
-								},
-								{
-									"style": "button",
-									"text": "Car",
-									"href": "/about?car=true"
-								},
-								{
-									"style": "link",
-									"text": "Monkey Couch",
-									"href": "/about?monkey-couch=true"
-								},
-								{
-									"style": "link",
-									"text": "Menu",
-									"items": [
-										{
-											"style": "link",
-											"text": "Beer",
-											"href": "/about?beer=true"
-										},
-										{
-											"style": "link",
-											"text": "Wine",
-											"href": "/membership?wine=true"
-										},
-										{
-											"style": "button",
-											"text": "Kombucha",
-											"href": "/rules?kombucha=true"
-										}
-									]
-								}
-							]
-						},
-						{
-							"style": "button",
-							"text": "Hours and Location",
-							"href": "/contact"
-						}
-					]
-				},
-				"es-ar": {
-					"header": {
-						"defaultBackText": "Cerrar"
-					},
-					"items": [
-						{
-							"style": "link",
-							"text": "Miembrecia",
-							"href": "/membership"
-						},
-						{
-							"style": "link",
-							"text": "Productos",
-							"items": [
-								{
-									"style": "link",
-									"text": "Bicicleta",
-									"href": "/about?bicicleta=true"
-								},
-								{
-									"style": "button",
-									"text": "Autos",
-									"href": "/about?auto=true"
-								},
-								{
-									"style": "link",
-									"text": "Sofa de Mono",
-									"href": "/about?sofa-mono=true"
-								},
-								{
-									"style": "link",
-									"text": "Carta",
-									"items": [
-										{
-											"style": "link",
-											"text": "Cerveza",
-											"href": "/about?cerveza=true"
-										},
-										{
-											"style": "link",
-											"text": "Vino",
-											"href": "/membership?vino=true"
-										},
-										{
-											"style": "button",
-											"text": "Kombucha",
-											"href": "/rules?kombucha=true"
-										}
-									]
-								}
-							]
-						},
-						{
-							"style": "button",
-							"text": "Horas y Ubicación",
-							"href": "/contact"
-						}
-					]
-				}
-			}
-		}
-	}
+  "component": {
+    "header": {
+      "content": {
+        "mainMenuToggle": {
+          "label": "Menu"
+        },
+        "logo": {
+          "type": "icon"
+        }
+      }
+    },
+    "footer": {
+      "content": {
+        "copyright": {
+          "copy": "Una Buena Spanish"
+        },
+        "sections": [
+          {
+            "title": "Lessons & Courses",
+            "items": [
+              {
+                "routerLink": "/lessons/full",
+                "copy": "1.5 Hour Lesson Packages"
+              },
+              {
+                "routerLink": "/lessons/one-hour",
+                "copy": "1 Hour Lesson Packages"
+              },
+              {
+                "routerLink": "/lessons/conversation",
+                "copy": "Conversation Lessons"
+              },
+              {
+                "routerLink": "/lessons/groups",
+                "copy": "Group Lessons"
+              }
+            ]
+          },
+          {
+            "title": "Una Buena",
+            "items": [
+              {
+                "routerLink": "/contact",
+                "copy": "Contact"
+              },
+              {
+                "routerLink": "/faq",
+                "copy": "F.A.Q."
+              },
+              {
+                "routerLink": "/contact",
+                "copy": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "mainMenu": {
+      "config": {
+      },
+      "content": {
+        "header": {
+          "defaultBackText": "Close"
+        },
+        "items": [
+          {
+            "style": "link",
+            "text": "Membership",
+            "href": "/membership"
+          },
+          {
+            "style": "link",
+            "text": "Testing",
+            "href": "/testing/moretesting/alittlemoretesting"
+          },
+          {
+            "style": "link",
+            "text": "Products",
+            "items": [
+              {
+                "style": "link",
+                "text": "Bicycle",
+                "href": "/about?bicycle=true"
+              },
+              {
+                "style": "button",
+                "text": "Car",
+                "href": "/about?car=true"
+              },
+              {
+                "style": "link",
+                "text": "Monkey Couch",
+                "href": "/about?monkey-couch=true"
+              },
+              {
+                "style": "link",
+                "text": "Menu",
+                "items": [
+                  {
+                    "style": "link",
+                    "text": "Beer",
+                    "href": "/about?beer=true"
+                  },
+                  {
+                    "style": "link",
+                    "text": "Wine",
+                    "href": "/membership?wine=true"
+                  },
+                  {
+                    "style": "button",
+                    "text": "Kombucha",
+                    "href": "/rules?kombucha=true"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "style": "button",
+            "text": "Hours and Location",
+            "href": "/contact"
+          }
+        ]
+      }
+    }
+  }
 }
