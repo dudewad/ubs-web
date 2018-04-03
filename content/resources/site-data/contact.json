@@ -1,0 +1,92 @@
+{
+  "config": {
+    "header": true,
+    "footer": true,
+    "mainMenu": true
+  },
+  "component": [
+    {
+      "type": "Form",
+      "config": {
+        "formAction": "http://www.unabuenaspanish.com/api/v1/contact/",
+        "class": [
+          "compensate-header"
+        ]
+      },
+      "content": {
+        "title": "Do you want to learn more?",
+        "body": "\"Hola\" is a great start!",
+        "successMessage": "Your information was successfully sent. Thank you!",
+        "errorMessage": "Oops... There was a problem sending your information. Please try again!",
+        "fields": [
+          {
+            "type": "text",
+            "label": "Name *",
+            "name": "customerName",
+            "placeholder": "Your name*",
+            "validators": {
+              "required": true
+            }
+          },
+          {
+            "type": "text",
+            "label": "Email *",
+            "name": "email",
+            "placeholder": "Email address*",
+            "validators": {
+              "required": true
+            }
+          },
+          {
+            "type": "text",
+            "label": "Phone *",
+            "name": "phone",
+            "placeholder": "Phone Number*",
+            "validators": {
+              "required": true
+            }
+          },
+          {
+            "type": "textarea",
+            "label": "Tell me more *",
+            "name": "message",
+            "placeholder": "Message*",
+            "validators": {
+              "required": true
+            }
+          }
+        ],
+        "submitLabel": "Send"
+      }
+    },
+    {
+      "type": "Copy",
+      "config": {
+        "class": [
+          "theme-brand-primary"
+        ]
+      },
+      "content": {
+        "title": "We are located in Lower Queen Anne",
+        "body": "And yes! There's free parking for our students!"
+      }
+    },
+    {
+      "type": "Ribbon",
+      "config": {
+        "class": [
+          "contact-ribbon"
+        ]
+      },
+      "content": {
+        "title": "Come Visit",
+        "body": "500 Mercer St<br>Seattle, WA 98109",
+        "map": {
+          "type": "map",
+          "placeId": "ChIJybXkRkcVkFQR_ZkwimnY8Zw",
+          "marker": "/maps-marker.svg"
+        }
+      }
+    }
+  ]
+}

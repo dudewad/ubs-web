@@ -1,0 +1,48 @@
+@import '../_variables.scss';
+@import '../../../../style/bootstrap-custom/bootstrap-no-output';
+
+input, textarea {
+  border: 1px solid map-get($base-colors-overrides, brand-primary);
+  padding: 1em;
+  border-radius: 5px;
+}
+
+lm-form-field {
+  display: block;
+  margin-bottom: 1em;
+  
+  &::ng-deep {
+    label {
+      margin-bottom: .5em;
+      display: none;
+      font-size: 1em;
+    }
+
+    input {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    textarea {
+      width: 100%;
+      max-width: 600px;
+      min-height: 150px;
+    }
+  }
+}
+
+@media screen and (min-width: $screen-sm-min) {
+
+}
+
+@media screen and (min-width: $screen-lg-min) {
+  lm-form-field {
+    margin-bottom: 1.5em;
+
+    &::ng-deep {
+      label {
+        margin-bottom: .5em;
+      }
+    }
+  }
+}

@@ -17,40 +17,24 @@
         },
         "sections": [
           {
-            "title": "Lessons & Courses",
+            "title": "Una Buena Spanish",
             "items": [
               {
-                "routerLink": "/lessons/full",
-                "copy": "1.5 Hour Lesson Packages"
-              },
-              {
-                "routerLink": "/lessons/one-hour",
-                "copy": "1 Hour Lesson Packages"
-              },
-              {
-                "routerLink": "/lessons/conversation",
-                "copy": "Conversation Lessons"
-              },
-              {
-                "routerLink": "/lessons/groups",
-                "copy": "Group Lessons"
+                "routerLink": "/home",
+                "copy": "Home"
               }
             ]
           },
           {
-            "title": "Una Buena",
+            "title": "Learn About Us",
             "items": [
               {
-                "routerLink": "/contact",
-                "copy": "Contact"
-              },
-              {
-                "routerLink": "/faq",
-                "copy": "F.A.Q."
+                "routerLink": "/about",
+                "copy": "About Una Buena Spanish"
               },
               {
                 "routerLink": "/contact",
-                "copy": ""
+                "copy": "Contact Us"
               }
             ]
           }
@@ -67,59 +51,17 @@
         "items": [
           {
             "style": "link",
-            "text": "Membership",
-            "href": "/membership"
+            "text": "Home",
+            "href": "/home"
           },
           {
             "style": "link",
-            "text": "Testing",
-            "href": "/testing/moretesting/alittlemoretesting"
+            "text": "About Una Buena Spanish",
+            "href": "/about"
           },
           {
             "style": "link",
-            "text": "Products",
-            "items": [
-              {
-                "style": "link",
-                "text": "Bicycle",
-                "href": "/about?bicycle=true"
-              },
-              {
-                "style": "button",
-                "text": "Car",
-                "href": "/about?car=true"
-              },
-              {
-                "style": "link",
-                "text": "Monkey Couch",
-                "href": "/about?monkey-couch=true"
-              },
-              {
-                "style": "link",
-                "text": "Menu",
-                "items": [
-                  {
-                    "style": "link",
-                    "text": "Beer",
-                    "href": "/about?beer=true"
-                  },
-                  {
-                    "style": "link",
-                    "text": "Wine",
-                    "href": "/membership?wine=true"
-                  },
-                  {
-                    "style": "button",
-                    "text": "Kombucha",
-                    "href": "/rules?kombucha=true"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "style": "button",
-            "text": "Hours and Location",
+            "text": "Contact Us",
             "href": "/contact"
           }
         ]

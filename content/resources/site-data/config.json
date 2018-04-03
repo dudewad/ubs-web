@@ -1,14 +1,19 @@
 {
-    "globalConfig": "global.json",
-    "routes": {
-        "default": "home.json",
-        "/": "home.json"
+  "globalConfig": "global.json",
+  "routes": {
+    "default": "home.json",
+    "/about": "about.json",
+    "/contact": "contact.json",
+    "/": "home.json"
+  },
+  "vendor": {
+    "googleMaps": {
+      "apiKey": "AIzaSyBD4m3TIux5wmxNeI7xtkomitYSMmID3wY"
     },
-    "vendor": {
-        "metrics": {
-            "google": {
-                "trackingId": "UA-77165499-1"
-            }
-        }
+    "metrics": {
+      "google": {
+        "trackingId": "UA-77165499-1"
+      }
     }
+  }
 }
