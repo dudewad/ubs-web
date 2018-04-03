@@ -52,12 +52,12 @@
       "contentRoot": "/resources/asset/"
     },
     "staging": {
-      "dataRoot": "//www.desmill.com/generator-test/staging/site-data/",
-      "contentRoot": "//www.desmill.com/generator-test/staging/asset/"
+      "dataRoot": "//staging.unabuenaspanish.com/site-data/",
+      "contentRoot": "//staging.unabuenaspanish.com/asset/"
     },
     "prod": {
-      "dataRoot": "//www.desmill.com/generator-test/prod/site-data/",
-      "contentRoot": "//www.desmill.com/generator-test/prod/asset/"
+      "dataRoot": "//www.unabuenaspanish.com/site-data/",
+      "contentRoot": "//www.unabuenaspanish.com/asset/"
     },
     "relative": {
       "font": "/font/",
