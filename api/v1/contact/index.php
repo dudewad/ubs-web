@@ -1,5 +1,6 @@
 <?php
-header("Access-Control-Allow-Origin: http://10.0.0.49:3000");
+// Uncomment this to whitelist local domain access to the api
+// header("Access-Control-Allow-Origin: http://10.0.0.49:3000");
 header("Access-Control-Allow-Headers: Content-Type");
 header("Vary: Origin");
 header("Access-Control-Allow-Methods: POST,OPTIONS");

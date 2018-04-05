@@ -16,8 +16,8 @@
       "content": {
         "title": "Do you want to learn more?",
         "body": "\"Hola\" is a great start!",
-        "successMessage": "Your information was successfully sent. Thank you!",
-        "errorMessage": "Oops... There was a problem sending your information. Please try again!",
+        "successMessage": "Your message was successfully sent. ¡Gracias!",
+        "errorMessage": "Oops... There was a problem sending your message. Please try again!",
         "fields": [
           {
             "type": "text",
@@ -63,12 +63,13 @@
       "type": "Copy",
       "config": {
         "class": [
-          "theme-brand-primary"
+          "theme-brand-primary",
+          "location-blade"
         ]
       },
       "content": {
         "title": "We are located in Lower Queen Anne",
-        "body": "And yes! There's free parking for our students!"
+        "body": "And yes! There's free on-site parking for our students."
       }
     },
     {
@@ -79,7 +80,6 @@
         ]
       },
       "content": {
-        "title": "Come Visit",
         "body": "500 Mercer St<br>Seattle, WA 98109",
         "map": {
           "type": "map",

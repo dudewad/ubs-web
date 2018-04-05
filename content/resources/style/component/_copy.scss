@@ -2,11 +2,15 @@
 @import '../../../../style/bootstrap-custom/bootstrap-no-output';
 
 &:host {
-    .copy {
-        font-size: .75em;
+  .copy {
+    font-size: .75em;
 
-        @media screen and(min-width: $screen-sm-min) {
-            font-size: 1.25em;
-        }
+    h1 {
+      font-weight: 300;
     }
+
+    @media screen and(min-width: $screen-sm-min) {
+      font-size: 1.25em;
+    }
+  }
 }

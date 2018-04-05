@@ -23,7 +23,7 @@
         "title": "Spanish Courses for Adults",
         "subtitle": "Accelerated Language Learning in Seattle",
         "cta": {
-          "text": "Learn More",
+          "text": "Learn more",
           "href": "/contact"
         }
       }
@@ -32,7 +32,8 @@
       "type": "Copy",
       "config": {
         "class": [
-          "solid-bg-1"
+          "solid-bg-1",
+          "home-copy-blade"
         ]
       },
       "content": {

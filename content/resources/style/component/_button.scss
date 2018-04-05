@@ -3,4 +3,10 @@
 button,
 .button {
   background: map-get($colors-overrides, button-bg);
+  font-family: $body-font-family-override;
+
+  &:disabled {
+    opacity: 1;
+    background: #dedede;
+  }
 }

@@ -30,7 +30,7 @@
             "items": [
               {
                 "routerLink": "/about",
-                "copy": "About Una Buena Spanish"
+                "copy": "About Una Buena"
               },
               {
                 "routerLink": "/contact",

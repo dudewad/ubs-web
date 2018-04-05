@@ -1,3 +1,6 @@
+@import '../variables';
+@import '../../../../style/bootstrap-custom/bootstrap-no-output';
+
 menu {
   &.main-menu {
     .backdrop {
@@ -7,6 +10,8 @@ menu {
 }
 
 .main-menu-page {
+  width: 90% !important;
+
   button {
     background: transparent;
   }
@@ -18,11 +23,42 @@ menu {
     justify-content: space-between;
     align-items: center;
   }
+
+  li {
+    a {
+      padding-bottom: .5em;
+      border-bottom: 1px solid #ddd;
+    }
+  }
 }
 
 body.main-menu-active {
   .site-content-wrapper {
     filter: grayscale(50%);
     transition: filter .5s;
+  }
+}
+
+@media screen and (min-width: $screen-xs-min) {
+  .main-menu-page {
+    width: 50% !important;
+  }
+}
+
+@media screen and (min-width: $screen-sm-min) {
+  .main-menu-page {
+    width: 33% !important;
+  }
+}
+
+@media screen and (min-width: $screen-md-min) {
+  .main-menu-page {
+    //width: 25% !important;
+  }
+}
+
+@media screen and (min-width: $screen-lg-min) {
+  .main-menu-page {
+    width: 25% !important;
   }
 }

@@ -11,7 +11,7 @@
         "class": [
           "compensate-header",
           "text-center",
-          "home-hero"
+          "about-hero"
         ],
         "background": {
           "style": "image",
@@ -32,8 +32,8 @@
         ]
       },
       "content": {
-        "title": "Hola Amigos!",
-        "body": "Me llamo Paola and I'm a Certified Spanish interpreter and teacher who also develops online learning content. Spanish is my native language and I have a passion for learning/teaching languages as fast as possible. My goal is to teach great quality lessons and that match the student's need to reach their highest potential, faster. It is my goal that my students get the most out of their time with me, so they get fluent faster. As my student you will be able to measure and see real progress, always having fun while learning and enjoying yourself becoming bilingual, step by step.",
+        "title": "¡Hola Amigos!",
+        "body": "Me llamo Paola and I'm a Certified Spanish interpreter and teacher who also develops online learning content. Spanish is my native language and I have a passion for learning/teaching languages as fast as possible. My goal is to teach great quality lessons that match the student's need to reach their highest potential, faster. It is my goal that my students get the most out of their time with me, so they get fluent faster. As my student you will be able to measure and see real progress, always having fun while learning and enjoying yourself becoming bilingual, step by step.",
         "image": "/portrait.jpg"
       }
     },
