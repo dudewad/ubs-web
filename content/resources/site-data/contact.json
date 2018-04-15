@@ -16,9 +16,15 @@
       "content": {
         "title": "Do you want to learn more?",
         "body": "\"Hola\" is a great start!",
-        "successMessage": "Your message was successfully sent. ¡Gracias!",
-        "errorMessage": "Oops... There was a problem sending your message. Please try again!",
-        "fields": [
+        "notification": {
+          "success": {
+            "text": "<p>Your message was successfully sent. ¡Gracias!</p><p class='alternate'>We do our best to respond within 48 business hours.<br>Generally, we work Mon – Thu, 9am – 7pm PST.</p><p class='alternate'>In the unlikely case you don't hear back from us, that would mean we didn't get your note, so please do send it again.</p>"
+          },
+          "error": {
+            "text": "Oops... There was a problem sending your message. Please try again!"
+          }
+        },
+        "field": [
           {
             "type": "text",
             "label": "Name *",

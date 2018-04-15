@@ -18,7 +18,8 @@ form {
   }
 
   button {
-    float: right;
+    display: block;
+    margin: 0 auto;
 
     &:disabled {
       cursor: pointer !important;
@@ -70,7 +71,7 @@ lm-form-field {
   max-width: 500px;
   clear: both;
   padding-top: 1em;
-  text-align: right;
+  text-align: center;
 
   &.error {
     color: map-get($base-colors-overrides, brand-secondary);
@@ -78,6 +79,12 @@ lm-form-field {
 
   &.success {
     color: map-get($base-colors-overrides, brand-primary);
+  }
+
+  .alternate {
+    font-size: .75em;
+    font-weight: normal;
+    color: #999;
   }
 }
 

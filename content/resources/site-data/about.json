@@ -61,6 +61,20 @@
         "body": "When I am not in class, I can be found creating new learning content, devouring books about behavioral psychology, neuroscience, behavioral economics, motivation, meditation and mind training.  I have a passion for learning about why we do what we do and the ways we create new habits. I'm always looking for new ways to incorporate the knowledge discovered from the most recent scientific research about how we learn languages and can rewire our brain to become better versions of ourselves.<br><br>Oh! and my new hobby is scuba diving, (I still need to learn how to swim without the help of a scuba diving equipment, ay!) I don't do it as often as I would like, but it has been so much fun getting to see the underwater life here in the PNW!",
         "image": "/llama.jpg"
       }
+    },
+    {
+      "type": "Copy",
+      "config": {
+        "class": [
+          "footer-strip"
+        ],
+        "background": {
+          "style": "image",
+          "value": "/footer-strip.jpg",
+          "responsive": true
+        }
+      },
+      "content": {}
     }
   ]
 }
