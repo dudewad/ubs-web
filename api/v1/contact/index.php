@@ -14,13 +14,14 @@ $email = $decoded['email']; // Email is required below
 $phone = isset($decoded['phone']) ? $decoded['phone'] : '[not provided]';
 $customerName = isset($decoded['customerName']) ? $decoded['customerName'] : '';
 $message = isset($decoded['message']) ? $decoded['message'] : '';
+$firstName = preg_split("/[\s]+/", $customerName);
 if (isset($decoded['email'])) {
-    $headers = 'From: UBS Customer Inquiry <no-reply@unabuenaspanish.com>';
+    $headers = "From: $firstName[0] via ubs.com <no-reply@unabuenaspanish.com>";
 
     $sent = mail(
         'unabuenaspanish@gmail.com',
-        "New message from customer: $customerName",
-        "Customer name: $customerName\r\nCustomer email: $email\r\nCustomer phone: $phone\r\nMessage:\r\n\r\n$message",
+        "Consultation",
+        "¡Hola! $customerName te contacta desde ubs.com:\r\n\r\n\"$message\"\r\n\r\n$customerName\r\n$email\r\n$phone\r\n\r\nMuchas gracias.",
         $headers
     );
 

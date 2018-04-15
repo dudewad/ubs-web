@@ -15,6 +15,7 @@ $colors-overrides: (
     header-color: #FFF,
     header-bg: map-get($base-colors-overrides, brand-primary),
     header-logo-color: #fff,
+    main-menu-item-hover-color: darken(map-get($base-colors-overrides, brand-primary), 40%),
     main-menu-page-bg: map-get($base-colors-overrides, white),
     main-menu-page-header-bg: map-get($base-colors-overrides, brand-primary),
     main-menu-separator-color: lighten(map-get($base-colors-overrides, brand-primary),50),
