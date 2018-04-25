@@ -23,6 +23,11 @@ menu {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    h2,
+    span {
+      font-weight: 300;
+    }
   }
 
   li {
@@ -30,6 +35,8 @@ menu {
       padding-bottom: .5em;
       border-bottom: 1px solid #ddd;
     }
+
+    border-bottom: none !important;
   }
 }
 

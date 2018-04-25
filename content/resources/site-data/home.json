@@ -17,7 +17,8 @@
           "style": "image",
           "value": "/home-hero.jpg",
           "responsive": true
-        }
+        },
+        "id": "test-id"
       },
       "content": {
         "title": "Spanish Courses for Adults",
