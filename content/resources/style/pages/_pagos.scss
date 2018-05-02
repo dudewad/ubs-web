@@ -51,6 +51,12 @@ $imageRoot: $urlContentRoot + $urlImageRelativePath;
       padding-top: 1em !important;
       padding-bottom: 3em !important;
     }
+
+    &.single-lesson-package {
+      .disclaimer {
+        margin-top: 1em;
+      }
+    }
   }
 }
 

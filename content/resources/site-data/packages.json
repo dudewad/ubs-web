@@ -46,7 +46,7 @@
             "title": "60-min lessons",
             "body": "<span class='feature-bubble primary'><span class='large'>4</span>hrs<br><span class='small'>total</span></span><p>4 lessons/month</p><p>$280<span class='disclaimer'>(+2.9% credit card fees)</span>",
             "cta": {
-              "text": "view",
+              "text": "sign up",
               "href": "/packages/4"
             }
           },
@@ -54,7 +54,7 @@
             "title": "90-min lessons",
             "body": "<span class='feature-bubble secondary'><span class='large'>6</span>hrs<br><span class='small'>total</span></span><p>4 lessons/month</p><p>$390<span class='disclaimer'>(+2.9% credit card fees)</span>",
             "cta": {
-              "text": "view",
+              "text": "sign up",
               "href": "/packages/6"
             }
           }
@@ -77,7 +77,7 @@
             "title": "60-min lessons",
             "body": "<span class='feature-bubble primary'><span class='large'>8</span>hrs<br><span class='small'>total</span></span><p>8 lessons/month</p><p>$520<span class='disclaimer'>(+2.9% credit card fees)</span>",
             "cta": {
-              "text": "view",
+              "text": "sign up",
               "href": "/packages/8"
             }
           },
@@ -85,7 +85,7 @@
             "title": "90-min lessons",
             "body": "<span class='feature-bubble secondary'><span class='large'>12</span>hrs<br><span class='small'>total</span></span><p>8 lessons/month</p><p>$780<span class='disclaimer'>(+2.9% credit card fees)</span>",
             "cta": {
-              "text": "view",
+              "text": "sign up",
               "href": "/packages/12"
             }
           }
