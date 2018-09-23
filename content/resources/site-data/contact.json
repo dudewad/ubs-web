@@ -8,7 +8,7 @@
     {
       "type": "Form",
       "config": {
-        "formAction": "http://www.unabuenaspanish.com/api/v1/contact/",
+        "formAction": "https://www.unabuenaspanish.com/api/v1/contact/",
         "class": [
           "compensate-header"
         ]

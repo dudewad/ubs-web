@@ -17,3 +17,4 @@ Enter the following command:
 It'll take some time to get started. Once you see the message `webpack: compiled successfully`, open Chrome and go to:
 
 `localhost:3001`
+ 
