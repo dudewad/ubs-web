@@ -44,7 +44,7 @@
         "tiles": [
           {
             "title": "60-min lessons",
-            "body": "<span class='feature-bubble primary'><span class='large'>4</span>hrs<br><span class='small'>total</span></span><p>4 lessons/month</p><p>$280<span class='disclaimer'>(+2.9% credit card fees)</span>",
+            "body": "<span class='feature-bubble primary'><span class='large'>4</span>hrs<br><span class='small'>total</span></span><p>4 lessons/month</p><p>$299<span class='disclaimer'>(+2.9% credit card fee)</span>",
             "cta": {
               "text": "sign up",
               "href": "/packages/4"
@@ -52,7 +52,7 @@
           },
           {
             "title": "90-min lessons",
-            "body": "<span class='feature-bubble secondary'><span class='large'>6</span>hrs<br><span class='small'>total</span></span><p>4 lessons/month</p><p>$390<span class='disclaimer'>(+2.9% credit card fees)</span>",
+            "body": "<span class='feature-bubble secondary'><span class='large'>6</span>hrs<br><span class='small'>total</span></span><p>4 lessons/month</p><p>$425<span class='disclaimer'>(+2.9% credit card fee)</span>",
             "cta": {
               "text": "sign up",
               "href": "/packages/6"
@@ -75,7 +75,7 @@
         "tiles": [
           {
             "title": "60-min lessons",
-            "body": "<span class='feature-bubble primary'><span class='large'>8</span>hrs<br><span class='small'>total</span></span><p>8 lessons/month</p><p>$520<span class='disclaimer'>(+2.9% credit card fees)</span>",
+            "body": "<span class='feature-bubble primary'><span class='large'>8</span>hrs<br><span class='small'>total</span></span><p>8 lessons/month</p><p>$560<span class='disclaimer'>(+2.9% credit card fee)</span>",
             "cta": {
               "text": "sign up",
               "href": "/packages/8"
@@ -83,7 +83,7 @@
           },
           {
             "title": "90-min lessons",
-            "body": "<span class='feature-bubble secondary'><span class='large'>12</span>hrs<br><span class='small'>total</span></span><p>8 lessons/month</p><p>$780<span class='disclaimer'>(+2.9% credit card fees)</span>",
+            "body": "<span class='feature-bubble secondary'><span class='large'>12</span>hrs<br><span class='small'>total</span></span><p>8 lessons/month</p><p>$840<span class='disclaimer'>(+2.9% credit card fee)</span>",
             "cta": {
               "text": "sign up",
               "href": "/packages/12"
