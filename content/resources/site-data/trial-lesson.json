@@ -1,0 +1,23 @@
+{
+  "config": {
+    "header": true,
+    "footer": true,
+    "mainMenu": true
+  },
+  "component": [
+    {
+      "type": "Copy",
+      "config": {
+        "class": [
+          "compensate-header",
+          "package-description",
+          "lessons-1x60"
+        ]
+      },
+      "content": {
+        "subtitle": "Trial 60 Minute Private Spanish Lesson",
+        "body": "Description:<ul><li>$35 per 60 minute lesson</li><li>2.9% credit card fee</li></ul><span class='disclaimer'>Lesson must be redeemed within 30 days of purchase</span><iframe class='scheduler-frame' src='https://app.acuityscheduling.com/catalog.php?owner=12063695&action=addCart&clear=1&id=655564' frameborder='0' allowfullscreen></iframe>"
+      }
+    }
+  ]
+}

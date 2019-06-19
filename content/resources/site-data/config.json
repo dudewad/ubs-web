@@ -16,6 +16,7 @@
     "/hybrid-packages/8": "hybrid-packages/8.json",
     "/single-lessons/60": "single-lessons/60.json",
     "/single-lessons/90": "single-lessons/90.json",
+    "/trial-lesson": "trial-lesson.json",
     "/": "home.json"
   },
   "vendor": {
