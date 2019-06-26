@@ -10,18 +10,22 @@ $content = trim(file_get_contents("php://input"));
 //Attempt to decode the incoming RAW post data from JSON.
 $decoded = json_decode($content, true);
 
+$appointmentType = $decoded['appointmentType'];
 $email = $decoded['email']; // Email is required below
 $phone = isset($decoded['phone']) ? $decoded['phone'] : '[not provided]';
 $customerName = isset($decoded['customerName']) ? $decoded['customerName'] : '';
-$message = isset($decoded['message']) ? $decoded['message'] : '';
+$time1 = isset($decoded['time1']) ? $decoded['time1'] : 'Not Specified';
+$time2 = isset($decoded['time2']) ? $decoded['time2'] : 'Not Specified';
+$time3 = isset($decoded['time3']) ? $decoded['time3'] : 'Not specified';
 $firstName = preg_split("/[\s]+/", $customerName);
 if (isset($decoded['email'])) {
     $headers = "From: $firstName[0] via ubs.com <no-reply@unabuenaspanish.com>";
 
     $sent = mail(
+        // 'layton.r.miller@gmail.com',
         'unabuenaspanish@gmail.com',
         "Consultation",
-        "¡Hola! $customerName te contacta desde ubs.com:\r\n\r\n\"$message\"\r\n\r\n$customerName\r\n$email\r\n$phone\r\n\r\nMuchas gracias.",
+        "¡Hola! $customerName te contacta desde ubs.com:\r\n\r\n$customerName\r\n$email\r\n$phone\r\n\r\nAppointment type: $appointmentType\r\n\r\nRequested times:\r\nTime 1: $time1\r\nTime 2: $time2\r\nTime 3: $time3\r\n\r\nMuchas gracias.",
         $headers
     );
 

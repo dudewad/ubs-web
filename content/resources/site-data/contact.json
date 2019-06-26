@@ -6,16 +6,29 @@
   },
   "component": [
     {
+      "type": "Copy",
+      "config": {
+        "class": [
+          "compensate-header",
+          "text-center",
+          "contact-copy-1"
+        ]
+      },
+      "content": {
+        "title": "Ready to commit to the results you want?",
+        "subtitle": "Get off the fence<br>El mundo is waiting for you",
+        "body": "Schedule a 15-30 minute consultation, come with all your questions and learn how we can help you and work together to get your conversational skills to the next level towards fluency"
+      }
+    },
+    {
       "type": "Form",
       "config": {
         "formAction": "https://www.unabuenaspanish.com/api/v1/contact/",
         "class": [
-          "compensate-header"
+          "contact-form"
         ]
       },
       "content": {
-        "title": "Do you want to learn more?",
-        "body": "\"Hola\" is a great start!",
         "notification": {
           "success": {
             "text": "<p>Your message was successfully sent. ¡Gracias!</p><p class='alternate'>We do our best to respond within 48 business hours.<br>Generally, we work Mon – Thu, 9am – 7pm PST.</p><p class='alternate'>In the unlikely case you don't hear back from us, that would mean we didn't get your note, so please do send it again.</p>"
@@ -26,8 +39,32 @@
         },
         "field": [
           {
+            "type": "select",
+            "name": "appointmentType",
+            "label": "Appointment type",
+            "options": [
+              {
+                "default": true,
+                "disabled": true,
+                "displayValue": "Select One",
+                "value": "",
+                "hidden": true
+              },
+              {
+                "value": "phone",
+                "displayValue": "Phone Call"
+              },
+              {
+                "value": "in-person",
+                "displayValue": "In Person"
+              }
+            ],
+            "validators": {
+              "required": true
+            }
+          },
+          {
             "type": "text",
-            "label": "Name *",
             "name": "customerName",
             "placeholder": "Your name*",
             "validators": {
@@ -36,16 +73,15 @@
           },
           {
             "type": "text",
-            "label": "Email *",
             "name": "email",
             "placeholder": "Email address*",
             "validators": {
-              "required": true
+              "required": true,
+              "email": true
             }
           },
           {
             "type": "text",
-            "label": "Phone *",
             "name": "phone",
             "placeholder": "Phone Number*",
             "validators": {
@@ -53,13 +89,29 @@
             }
           },
           {
-            "type": "textarea",
-            "label": "Tell me more *",
-            "name": "message",
-            "placeholder": "Message*",
+            "type": "text",
+            "label": "Request 2 or 3 times that work for you.<br>Consultation times are available Mondays through Thursdays,10am-7pm",
+            "name": "time1",
+            "class": "request-time",
+            "placeholder": "i.e. Tuesday 1/16 3pm",
             "validators": {
               "required": true
             }
+          },
+          {
+            "type": "text",
+            "name": "time2",
+            "class": "request-time",
+            "placeholder": "i.e. Tuesday 1/16 3pm",
+            "validators": {
+              "required": true
+            }
+          },
+          {
+            "type": "text",
+            "name": "time3",
+            "class": "request-time",
+            "placeholder": "i.e. Tuesday 1/16 3pm"
           }
         ],
         "submitLabel": "Send"
@@ -70,7 +122,8 @@
       "config": {
         "class": [
           "theme-brand-primary",
-          "location-blade"
+          "location-blade",
+          "text-center"
         ]
       },
       "content": {

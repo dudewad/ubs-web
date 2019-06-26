@@ -5,18 +5,6 @@ form {
   margin: 0 auto;
   max-width: 500px;
 
-  h2 {
-    font-weight: 300;
-    font-size: 3em;
-    text-align: center;
-  }
-
-  p {
-    color: map-get($base-colors-overrides, brand-secondary);
-    font-weight: bold;
-    text-align: center;
-  }
-
   button {
     display: block;
     margin: 0 auto;
@@ -27,7 +15,7 @@ form {
   }
 }
 
-input, textarea {
+input, textarea, select {
   border: 1px solid #333;
   padding: 1em;
   border-radius: 5px;
@@ -48,8 +36,8 @@ lm-form-field {
   
   &::ng-deep {
     label {
-      margin-bottom: .5em;
-      display: none;
+      display: block;
+      margin-bottom: 1em;
       font-size: 1em;
     }
 

@@ -7,6 +7,45 @@
   }
 }
 
-.location-blade {
-  text-align: center
+.contact-copy-1 {
+  h2 {
+    margin-top: 35px;
+    color: map-get($base-colors-overrides, brand-secondary);
+  }
+
+  p {
+    max-width: 700px;
+    margin: 40px auto 0 auto;
+  }
+}
+
+.lm-form {
+  &.contact-form {
+    .structure-content {
+      padding-top: 0;
+    }
+  }
+}
+
+.contact-form {
+  form {
+    max-width: 330px;
+  }
+
+  lm-form-field {
+    margin: 0 auto 1em auto;
+  }
+
+  input,
+  select {
+    width: 100%;
+  }
+
+  .request-time {
+    &::ng-deep {
+      label {
+        line-height: 1.5;
+      }
+    }
+  }
 }
