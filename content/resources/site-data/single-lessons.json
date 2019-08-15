@@ -30,7 +30,7 @@
         "tiles": [
           {
             "title": "60-min lesson",
-            "body": "<span class='feature-bubble primary'><span class='small'>$</span><span class='large'>75</span><br><span class='small'>per lesson</span></span><span class='disclaimer'>(2.9% credit card fee included)</span>",
+            "body": "<span class='feature-bubble primary'><span class='small'>$</span><span class='large'>85</span><br><span class='small'>per lesson</span></span><span class='disclaimer'>(2.9% credit card fee included)</span>",
             "cta": {
               "text": "sign up",
               "href": "/single-lessons/60"
@@ -38,7 +38,7 @@
           },
           {
             "title": "90-min lessons",
-            "body": "<span class='feature-bubble secondary'><span class='small'>$</span><span class='large'>115</span><br><span class='small'>per lesson</span></span><span class='disclaimer'>(2.9% credit card fee included)</span>",
+            "body": "<span class='feature-bubble secondary'><span class='small'>$</span><span class='large'>125</span><br><span class='small'>per lesson</span></span><span class='disclaimer'>(2.9% credit card fee included)</span>",
             "cta": {
               "text": "sign up",
               "href": "/single-lessons/90"
